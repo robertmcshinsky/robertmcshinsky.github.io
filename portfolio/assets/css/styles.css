@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  padding: 20px 35px;
+  background-color: #5a5a5a;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+}
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #525252;
+  margin: 0;
+  display: inline;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+header nav {
+  float: none;
+  margin: 15px 0;
+}
+header nav ul li {
+  display: inline;
+}
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+}
+iframe {
+  border: 3px solid black;
+  margin: 0 auto;
+  width: 90%;
+  height: 600px;
+}
+.projects {
+  text-align: center;
+}
