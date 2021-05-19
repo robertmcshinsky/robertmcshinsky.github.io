@@ -2,7 +2,7 @@
   font-family: "Courier New", monospace;
 }
 .fixed-bg {
-  background-image: url("/public/images/long-rd.jpg");
+  background-image: url("./public/images/long-rd.jpg");
   height: 900px;
   background-attachment: fixed;
   background-position: center;
@@ -10,7 +10,7 @@
   background-size: cover;
 }
 .fixed-bg1 {
-  background-image: url("/public/images/brick-rob.jpg");
+  background-image: url("./public/images/brick-rob.jpg");
   height: 800px;
   margin-top: 100px;
   background-attachment: fixed;
@@ -19,7 +19,7 @@
   background-size: cover;
 }
 .fixed-bg2 {
-  background-image: url("/public/images/lamp.jpg");
+  background-image: url("./public/images/lamp.jpg");
   height: 800px;
   background-attachment: fixed;
   background-position: center;
@@ -47,7 +47,7 @@
 }
 
 .full-body {
-  background-image: url("/public/images/image0.jpeg");
+  background-image: url("./public/images/image0.jpeg");
   height: 1200px;
   background-position: center;
   background-repeat: no-repeat;
@@ -63,7 +63,7 @@
   border-bottom-right-radius: 30px;
 }
 .full-body-2 {
-  background-image: url("/public/images/code.jpg");
+  background-image: url("./public/images/code.jpg");
   height: 800px;
   background-position: center;
   background-repeat: no-repeat;
