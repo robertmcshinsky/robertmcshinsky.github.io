@@ -48,14 +48,14 @@
 
 .full-body {
   background-image: url("../images/image0.png");
-  height: 1200px;
+  height: 800px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 35%;
   position: absolute;
   z-index: 100;
-  margin-top: -400px;
+  margin-top: -550px;
   margin-left: 55%;
   box-shadow: 2px 2px 18px #000000;
   border-radius: 30px;
