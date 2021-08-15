@@ -1,38 +1,119 @@
-.App {
+/* --------------- */
+#loading-screen {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+}
+#loading-screen video {
+  width: 50%;
+  margin-left: 25%;
+}
+/* --------------- */
+.wholePage {
+  display: none;
+}
+/* --------------- */
+
+/* --------------- */
+@media only screen and (max-width: 600px) {
+  #loading-screen video {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+/* --------------- */
+#logos {
+  width: 100%;
+  height: 800px;
+}
+
+.logos {
+  height: 60px;
+  width: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#bootstrap-logo {
+  background-image: url(./assets/logos/bootstrap.png);
+}
+#c-plus-plus-logo {
+  background-image: url(./assets/logos/c-plus-plus.png);
+}
+#css-logo {
+  background-image: url(./assets/logos/css.png);
+}
+#database-logo {
+  background-image: url(./assets/logos/database.png);
+}
+#express-logo {
+  background-image: url(./assets/logos/express.png);
+}
+#git-logo {
+  background-image: url(./assets/logos/git.png);
+}
+#html-logo {
+  background-image: url(./assets/logos/html.png);
+}
+#javascript-logo {
+  background-image: url(./assets/logos/javascript.png);
+}
+#jquery-logo {
+  background-image: url(./assets/logos/jquery.png);
+}
+#mongodb-logo {
+  background-image: url(./assets/logos/mongodb.png);
+}
+#nodejs-logo {
+  background-image: url(./assets/logos/nodejs.png);
+}
+#react-logo {
+  background-image: url(./assets/logos/react.png);
+}
+#uiux-logo {
+  background-image: url(./assets/logos/uiux.png);
+}
+
+.footer-social-link ul {
+  list-style-type: none;
+  padding: 20px;
+  margin: 0;
+}
+
+.footer-social-link li {
+  display: inline-block;
+}
+
+.footer-social-link a i {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
   text-align: center;
+  line-height: 40px;
+  background: #000;
+  margin-right: 5px;
+  color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer-social-link a i.fa-facebook {
+  background-color: #3b5998;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footer-social-link a i.fa-twitter {
+  background-color: #55acee;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.footer-social-link a i.fa-google-plus {
+  background-color: #dd4b39;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-social-link a i.fa-linkedin {
+  background-color: #0976b4;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-social-link a i.fa-instagram {
+  background-color: #b7242a;
 }
