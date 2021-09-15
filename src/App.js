@@ -14,7 +14,7 @@ import Home from "./pages/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import NoMatch from "./pages/NoMatch";
-import About from "./pages/About";
+//import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
@@ -47,7 +47,7 @@ function App() {
           <div>
             <Switch>
               <Route exact path="/" component={Home} />
-              <Route exact path="/about" component={About} />
+              <Route exact path="/about" component={Resume} />
               <Route exact path="/contact" component={Contact} />
               <Route exact path="/portfolio" component={Portfolio} />
               <Route exact path="/resume" component={Resume} />

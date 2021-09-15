@@ -1,4 +1,5 @@
 import React from "react";
+import HomeSections from "../components/HomeSections";
 import Loading from "../components/Loading";
 
 function Home() {
@@ -6,7 +7,7 @@ function Home() {
     <div>
       <Loading></Loading>
       <div id="wholePage" className="wholePage">
-        Home
+        <HomeSections></HomeSections>
       </div>
     </div>
   );

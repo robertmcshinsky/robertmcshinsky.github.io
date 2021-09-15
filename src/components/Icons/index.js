@@ -1,11 +1,9 @@
 import React from "react";
-import Header from "../Header";
 
 function Icons() {
   let degrees = 0;
   let rotating;
   function rotate(e) {
-    console.log("clicked", e.target.id);
     rotating = setInterval(() => {
       document
         .querySelector(`#${e.target.id}`)
@@ -15,103 +13,166 @@ function Icons() {
         degrees = 0;
       }
     }, 5);
+    showTooltip1(e);
   }
   function stopRotate(e) {
     degrees = 0;
 
-    console.log(e);
-    console.log("unclicked");
     clearInterval(rotating);
     document
       .querySelector(`#${e.target.id}`)
       .setAttribute("style", `transform: rotateY(0deg)`);
+
+    removeTooltip1(e);
+  }
+
+  function showTooltip1(e) {
+    document
+      .querySelector(`#logos1-tooltip`)
+      .setAttribute("style", "display:block");
+    document.querySelector(`#logos1-tooltip`).innerHTML = e.target.innerHTML;
+  }
+
+  function removeTooltip1(e) {
+    document
+      .querySelector(`#logos1-tooltip`)
+      .setAttribute("style", "display:none");
+    document.querySelector(`#logos1-tooltip`).innerHTML = "";
   }
   return (
-    <div id="about">
-      <Header></Header>
-      <div>
-        <div className="text-center white-text">
-          <div id="about-title">About</div>
+    <div>
+      <div id="logos1-tooltip" className="myToolTip"></div>
+
+      <div className="text-center">
+        <div>
+          <h1 className="mt-5 little-titles">THE BASICS</h1>
         </div>
-        <div id="logos">
-          <div
-            className="logos"
-            id="bootstrap-logo"
-            onMouseEnter={rotate}
-            onMouseLeave={stopRotate}
-          ></div>
-          <div
-            className="logos"
-            id="c-plus-plus-logo"
-            onMouseEnter={rotate}
-            onMouseLeave={stopRotate}
-          ></div>
+        <div id="logos1">
           <div
             className="logos"
             id="css-logo"
             onMouseEnter={rotate}
             onMouseLeave={stopRotate}
-          ></div>
-          <div
-            className="logos"
-            id="database-logo"
-            onMouseEnter={rotate}
-            onMouseLeave={stopRotate}
-          ></div>
-          <div
-            className="logos"
-            id="express-logo"
-            onMouseEnter={rotate}
-            onMouseLeave={stopRotate}
-          ></div>
-          <div
-            className="logos"
-            id="git-logo"
-            onMouseEnter={rotate}
-            onMouseLeave={stopRotate}
-          ></div>
+            defaultValue="CSS"
+          >
+            Cascading Style Sheets (CSS)
+          </div>
+
           <div
             className="logos"
             id="html-logo"
             onMouseEnter={rotate}
             onMouseLeave={stopRotate}
-          ></div>
+          >
+            Hyperlink Text Markup Language (HTML)
+          </div>
           <div
             className="logos"
             id="javascript-logo"
             onMouseEnter={rotate}
             onMouseLeave={stopRotate}
-          ></div>
-          <div
-            className="logos"
-            id="jquery-logo"
-            onMouseEnter={rotate}
-            onMouseLeave={stopRotate}
-          ></div>
+          >
+            Java Script (JS)
+          </div>
+        </div>
+
+        <div>
+          <h1 className="mt-5 little-titles">MERN STACK</h1>
+        </div>
+        <div id="logos2">
           <div
             className="logos"
             id="mongodb-logo"
             onMouseEnter={rotate}
             onMouseLeave={stopRotate}
-          ></div>
+          >
+            Mongo Database (Mongo DB)
+          </div>
           <div
             className="logos"
-            id="nodejs-logo"
+            id="express-logo"
             onMouseEnter={rotate}
             onMouseLeave={stopRotate}
-          ></div>
+          >
+            Express JS
+          </div>
+
           <div
             className="logos"
             id="react-logo"
             onMouseEnter={rotate}
             onMouseLeave={stopRotate}
-          ></div>
+          >
+            React
+          </div>
+          <div
+            className="logos"
+            id="nodejs-logo"
+            onMouseEnter={rotate}
+            onMouseLeave={stopRotate}
+          >
+            Node JS
+          </div>
+        </div>
+        <div>
+          <h1 className="mt-5 little-titles">BACKEND AND DATABASES</h1>
+        </div>
+        <div id="logos3">
+          <div
+            className="logos"
+            id="c-plus-plus-logo"
+            onMouseEnter={rotate}
+            onMouseLeave={stopRotate}
+          >
+            C++
+          </div>
+
+          <div
+            className="logos"
+            id="database-logo"
+            onMouseEnter={rotate}
+            onMouseLeave={stopRotate}
+          >
+            Database
+          </div>
+
+          <div
+            className="logos"
+            id="jquery-logo"
+            onMouseEnter={rotate}
+            onMouseLeave={stopRotate}
+          >
+            JQuery
+          </div>
+        </div>
+        <div>
+          <h1 className="mt-5 little-titles">MISCELENIOUS</h1>
+        </div>
+        <div id="logos4">
+          <div
+            className="logos"
+            id="bootstrap-logo"
+            onMouseEnter={rotate}
+            onMouseLeave={stopRotate}
+          >
+            Bootstrap
+          </div>
+          <div
+            className="logos"
+            id="git-logo"
+            onMouseEnter={rotate}
+            onMouseLeave={stopRotate}
+          >
+            Git
+          </div>
           <div
             className="logos"
             id="uiux-logo"
             onMouseEnter={rotate}
             onMouseLeave={stopRotate}
-          ></div>
+          >
+            User Interfase and User Experience (UI UX)
+          </div>
         </div>
       </div>
     </div>

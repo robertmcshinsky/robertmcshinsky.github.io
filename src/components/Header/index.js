@@ -6,14 +6,9 @@ function Header() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
         <ul className="navbar-nav ml-auto text-center">
-          <li className="nav-item active">
+          <li className="nav-item">
             <a className="nav-link" href="/about">
               About
-            </a>
-          </li>
-          <li className="nav-item active">
-            <a className="nav-link" href="/resume">
-              Resume
             </a>
           </li>
         </ul>
@@ -33,12 +28,7 @@ function Header() {
       </div>
       <div className="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
         <ul className="navbar-nav mr-auto text-center">
-          <li className="nav-item active">
-            <a className="nav-link" href="/portfolio">
-              Portfolio
-            </a>
-          </li>
-          <li className="nav-item active">
+          <li className="nav-item">
             <a className="nav-link" href="/contact">
               Contact
             </a>
