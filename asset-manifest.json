@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a53f7bef.chunk.css",
+    "main.js": "/static/js/main.8aa511ac.chunk.js",
+    "main.js.map": "/static/js/main.8aa511ac.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fb248c88.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fb248c88.js.map",
+    "static/js/2.15a5f093.chunk.js": "/static/js/2.15a5f093.chunk.js",
+    "static/js/2.15a5f093.chunk.js.map": "/static/js/2.15a5f093.chunk.js.map",
+    "static/js/3.f09ae0f9.chunk.js": "/static/js/3.f09ae0f9.chunk.js",
+    "static/js/3.f09ae0f9.chunk.js.map": "/static/js/3.f09ae0f9.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a53f7bef.chunk.css.map": "/static/css/main.a53f7bef.chunk.css.map",
+    "static/js/2.15a5f093.chunk.js.LICENSE.txt": "/static/js/2.15a5f093.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/uiux.90ed9a8d.png",
+    "static/media/computer.2175977f.png": "/static/media/computer.2175977f.png",
+    "static/media/galImage0.0b1c1822.png": "/static/media/galImage0.0b1c1822.png",
+    "static/media/galImage1.42ee8154.png": "/static/media/galImage1.42ee8154.png",
+    "static/media/galImage2.c10ec479.png": "/static/media/galImage2.c10ec479.png",
+    "static/media/galImage3.ecd30a7b.png": "/static/media/galImage3.ecd30a7b.png",
+    "static/media/galImage4.ec9c2fa5.png": "/static/media/galImage4.ec9c2fa5.png",
+    "static/media/galImage5.12526f02.png": "/static/media/galImage5.12526f02.png",
+    "static/media/galImage6.60f18b76.png": "/static/media/galImage6.60f18b76.png",
+    "static/media/horiseon.bc8cdc96.png": "/static/media/horiseon.bc8cdc96.png",
+    "static/media/image5.6488149e.png": "/static/media/image5.6488149e.png",
+    "static/media/laptop.9d2b9c18.png": "/static/media/laptop.9d2b9c18.png",
+    "static/media/loading.4c24f6e3.mp4": "/static/media/loading.4c24f6e3.mp4",
+    "static/media/marvel.5417b66f.png": "/static/media/marvel.5417b66f.png",
+    "static/media/phone.0f6c8a5b.png": "/static/media/phone.0f6c8a5b.png",
+    "static/media/scheduler.dcd68bf7.png": "/static/media/scheduler.dcd68bf7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb248c88.js",
+    "static/js/2.15a5f093.chunk.js",
+    "static/css/main.a53f7bef.chunk.css",
+    "static/js/main.8aa511ac.chunk.js"
+  ]
+}
