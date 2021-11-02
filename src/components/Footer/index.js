@@ -23,7 +23,7 @@ function Footer() {
               </h5>
               <hr></hr>
               <p>
-                Hello! I am he who this title above mentions!
+                Hello! Welcome to my portfolio page!
                 <br></br>
                 <br></br>
                 I'd like to get to know you a lot better and work on some
